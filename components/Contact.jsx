@@ -41,7 +41,7 @@ const Contact = () => {
                       placeholder="Message"
                     ></textarea>
                     <button className="text-black text:hover-white-800 border-2 bg-cyan-500 hover:bg-teal-600 hover:border-gray-600 px-4 py-3 my-8 mx-auto flex items-center">
-                      Let's Collaborate
+                      {"Let's Collaborate"}
                     </button>
                   </form>
                 </div>
@@ -54,8 +54,8 @@ const Contact = () => {
                 </p>
                 <br></br>
                 <p className="text-pretty font-bold text-lg max-w-2xl text-center text-gray-900 lg:text-left lg:max-w-[600] ">
-                  I'm always open to connect, whether it's over a virtual coffee
-                  or through a thoughtful conversation.
+                  {` I'm always open to connect, whether it's over a virtual coffee
+                  or through a thoughtful conversation.`}
                   <span>
                     {" "}
                     <br></br>
