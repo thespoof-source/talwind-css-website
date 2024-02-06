@@ -3,19 +3,19 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <footer class="  text-center lg:text-left  text-gray-600">
+      <footer className="  text-center lg:text-left  text-gray-600">
         <div>
-          <div class="mt-8 -mb-8 flex justify-center items-center">
-            <p class="text-gray-900 inline border-b-4 border-cyan-600 hover:text-cyan-600 uppercase text-4xl font-bold mb-4">
+          <div className="mt-8 -mb-8 flex justify-center items-center">
+            <p className="text-gray-900 inline border-b-4 border-cyan-600 hover:text-cyan-600 uppercase text-4xl font-bold mb-4">
               Contact
             </p>
           </div>
           <section className="flex justify-center items-center p-10  ">
-            <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
-              <div class="mb-14 lg:mb-0 lg:w-1/2">
+            <div className="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
+              <div className="mb-14 lg:mb-0 lg:w-1/2">
                 <div
                   name="contact"
-                  className="w-full   left-0 top-0 flex flex-col justify-center items-center p-4"
+                  classNameName="w-full   left-0 top-0 flex flex-col justify-center items-center p-4"
                 >
                   <form
                     method="POST"
@@ -23,19 +23,19 @@ const Contact = () => {
                     className="flex flex-col max-w-[600px] w-full min-w-[300px]"
                   >
                     <input
-                      className="bg-[#ccd6f6] p-2"
+                      className="bg-[#ccd6f6] p-2 border-2 border-gray-900 rounded-md"
                       type="text"
                       placeholder="Name"
                       name="name"
                     />
                     <input
-                      className="my-4 p-2 bg-[#ccd6f6]"
-                      type="email"
+                      className="bg-[#ccd6f6] p-2 border-2 border-gray-900 rounded-md"
+                      type="text"
                       placeholder="Email"
-                      name="email"
+                      name="name"
                     />
                     <textarea
-                      className="bg-[#ccd6f6] p-2"
+                      className="bg-[#ccd6f6] p-2 border-2 border-gray-900 rounded-md"
                       name="message"
                       rows="10"
                       placeholder="Message"
@@ -46,7 +46,7 @@ const Contact = () => {
                   </form>
                 </div>
               </div>
-              <div class="  pl-10 md:w-1/2 text-center order-first md:order-none ">
+              <div className="  pl-10 md:w-1/2 text-center order-first md:order-none ">
                 <p className="  text-pretty font-bold text-lg max-w-2xl text-center text-gray-900 lg:text-left lg:max-w-[600] ">
                   For inquiries about my work, projects, or to discuss
                   opportunities in the realm of UI/UX design and front-end
@@ -64,12 +64,12 @@ const Contact = () => {
                   </span>
                 </p>
                 <div className="pb-8">
-                  <p className="text-gray-900 py-4 text-4xl center-bold">
+                  <p classNameName="text-gray-900 py-4 text-4xl center-bold">
                     Do I have your attention? Hit me up :)
                   </p>
 
                   <p className="text-gray-900 py-4">
-                    // Submit the form or shoot me an email -
+                    Submit the form or shoot me an email -
                     sheikharbazalam@gmail.com.
                   </p>
                 </div>
@@ -78,22 +78,22 @@ const Contact = () => {
           </section>
         </div>
 
-        <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
-          <div class="mr-12 hidden lg:block">
-            <span class="text-cyan-500">
+        <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
+          <div className="mr-12 hidden lg:block">
+            <span className="text-cyan-500">
               Get Connected with Me on social networks:
             </span>
           </div>
 
-          <div class="flex justify-center mb-6 ">
+          <div className="flex justify-center mb-6 ">
             <a
               href="https://dribbble.com/thespoof4"
               type="button"
-              class="rounded-full border-2 border-gray-900 text-black leading-normal uppercase hover:bg-teal-200  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+              className="rounded-full border-2 border-gray-900 text-black leading-normal uppercase hover:bg-teal-200  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-full w-5 mx-auto"
+                className="h-full w-5 mx-auto"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -104,14 +104,14 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/sheikh-arbaz-alam-6b6b46172/"
               type="button"
-              class="rounded-full border-2 border-gray-900 text-black leading-normal uppercase hover:bg-teal-200  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+              className="rounded-full border-2 border-gray-900 text-black leading-normal uppercase hover:bg-teal-200  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="linkedin-in"
-                class="h-full w-5 mx-auto"
+                className="h-full w-5 mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
@@ -126,14 +126,14 @@ const Contact = () => {
             <a
               href="https://github.com/thespoof-source"
               type="button"
-              class="rounded-full border-2 border-gray-900 text-black leading-normal uppercase hover:bg-teal-200  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
+              className="rounded-full border-2 border-gray-900 text-black leading-normal uppercase hover:bg-teal-200  focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1"
             >
               <svg
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fab"
                 data-icon="github"
-                class="h-full w-5 mx-auto"
+                className="h-full w-5 mx-auto"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 496 512"
@@ -147,10 +147,10 @@ const Contact = () => {
           </div>
         </div>
 
-        <div class="text-center p-6 bg-gray-200">
+        <div className="text-center p-6 bg-gray-200">
           <span> © 2021 Copyright </span>
           <a
-            class="text-gray-600 font-semibold"
+            className="text-gray-600 font-semibold"
             href="https://tailwind-elements.com/"
           >
             SHEIKH

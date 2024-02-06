@@ -51,8 +51,8 @@ const skills = [
 const Skills = () => {
   return (
     <div>
-      <div class="mt-8 flex justify-center items-center">
-        <p class="text-gray-900 inline border-b-4 border-cyan-600 hover:text-cyan-600 uppercase text-4xl font-bold mb-4">
+      <div className="mt-8 flex justify-center items-center">
+        <p className="text-gray-900 inline border-b-4 border-cyan-600 hover:text-cyan-600 uppercase text-4xl font-bold mb-4">
           SKILLS
         </p>
       </div>

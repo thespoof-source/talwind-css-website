@@ -29,26 +29,26 @@ const Home = () => {
 
       <section className=" relative w-full min-h-screen md:h-screen flex md:block flex:col justify-center items-center">
         <section className="flex justify-center items-center p-20  ">
-          <div class="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
-            <div class="mb-14 lg:mb-0 lg:w-1/2  ">
-              <h1 class="max-w-xl text-[3.2rem] leading-none text-gray-900 font-extrabold font-sans text-center md:text-5xl lg:text-left lg:leading-tight mb-5">
+          <div className="container flex flex-wrap items-center justify-center mx-auto mt-10 md:px-12 md:flex-row">
+            <div className="mb-14 lg:mb-0 lg:w-1/2  ">
+              <h1 className="max-w-xl text-[3.2rem] leading-none text-gray-900 font-extrabold font-sans text-center md:text-5xl lg:text-left lg:leading-tight mb-5">
                 I'M <br></br> SHEIKH.
               </h1>
-              <p class="font-bold text-lg max-w-2xl text-center text-gray-500 lg:text-left lg:max-w- ">
+              <p className="font-bold text-lg max-w-2xl text-center text-gray-500 lg:text-left lg:max-w- ">
                 UI/UX Designer and Front End Developer,<br></br> exploring and
                 living in the United Kingdom.
               </p>
-              <div class="flex justify-center mt-14 lg:justify-start">
+              <div className="flex justify-center mt-14 lg:justify-start">
                 <button
                   type="button"
-                  class="text-white bg-cyan-600 font-medium rounded-lg text-md px-5 py-4 text-center hover:bg-cyan-700 hover:drop-shadow-md transition duration-300 ease-in-out"
+                  className="text-white bg-cyan-600 font-medium rounded-lg text-md px-5 py-4 text-center hover:bg-cyan-700 hover:drop-shadow-md transition duration-300 ease-in-out"
                 >
                   About Me
                 </button>
                 <button
                   href="https://c59f0aeb-9e4a-445d-b541-4eb5655970e4.filesusr.com/ugd/44eeee_176b07a80474443e807bf2ac5662ef9d.pdf"
                   type="button"
-                  class="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg--600 transition duration-300 ease-in-out"
+                  className="text-gray-900 bg-gray-200 font-medium rounded-lg px-5 py-4 text-center ml-4 md:mr-0 hover:bg-gray-300 hover:drop-shadow-md focus:bg--600 transition duration-300 ease-in-out"
                 >
                   Resume
                 </button>
@@ -61,116 +61,125 @@ const Home = () => {
       {/*work Section*/}
 
       <section>
-        <div class="bg-white">
-          <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 text-center">
-            <div class="mt-8 flex justify-center items-center">
-              <p class="text-gray-900 inline border-b-4 border-cyan-600 hover:text-cyan-600 uppercase text-4xl font-bold mb-4">
+        <div className="bg-white">
+          <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 text-center">
+            <div className="mt-8 flex justify-center items-center">
+              <p className="text-gray-900 inline border-b-4 border-cyan-600 hover:text-cyan-600 uppercase text-4xl font-bold mb-4">
                 PROJECTS
               </p>
             </div>
 
-            <div class=" grid grid-cols-1 gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
-              <a href="#" class="group">
-                <div class="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
+            <div className=" grid grid-cols-1 gap-x-12 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8">
+              <a href="#" className="group">
+                <div className="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
                   <Image
                     src={azone}
                     width="500"
                     height="400"
-                    alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
-                    class="h-full w-full stroke-black object-cover object-center group-hover:opacity-75 "
+                    alt="Description of the Azone project"
+                    className="h-full w-full stroke-black object-cover object-center group-hover:opacity-75 "
                   />
                 </div>
-                <h3 class="mt-4 text-xl text-gray-800 font-bold">
+                <h3 className="mt-4 text-xl text-gray-800 font-bold">
                   AZONE Web and Mobile App
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 className="mt-4 text-sm text-gray-700">
                   My Role UI/UX Designer
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">Duration 7 Weeks</h3>
+                <h3 className="mt-4 text-sm text-gray-700">Duration 7 Weeks</h3>
               </a>
 
-              <a href="#" class="group">
-                <div class="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
+              <a href="#" className="group">
+                <div className="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
                   <Image
                     src={barber}
                     width="500"
                     height="400"
-                    alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
-                    class="h-full w-full stroke-black object-cover object-center group-hover:opacity-75 "
+                    alt="Description of the barber project "
+                    className="h-full w-full stroke-black object-cover object-center group-hover:opacity-75 "
                   />
                 </div>
-                <h3 class="mt-4 text-xl text-gray-800 font-bold">Barber App</h3>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 className="mt-4 text-xl text-gray-800 font-bold">
+                  Barber App
+                </h3>
+                <h3 className="mt-4 text-sm text-gray-700">
                   My Role UI/UX Designer
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
+                <h3 className="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
               </a>
 
-              <a href="#" class="group">
-                <div class="shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-7 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
+              <a href="#" className="group">
+                <div className="shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-7 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
                   <Image
                     src={gym}
-                    alt="Hand holding black machined steel mechanical pencil with brass tip and top."
-                    class="h-full w-full  aspect-w-1 aspect-h-1  object-cover object-center group-hover:opacity-45"
+                    alt="Description of the gym project "
+                    className="h-full w-full  aspect-w-1 aspect-h-1  object-cover object-center group-hover:opacity-45"
                   />
                 </div>
-                <h3 class="mt-4 text-xl text-gray-800 font-bold">
+                <h3 className="mt-4 text-xl text-gray-800 font-bold">
                   Fitboss App
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 className="mt-4 text-sm text-gray-700">
                   My Role UI/UX Designer
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
+                <h3 className="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
               </a>
 
-              <a href="#" class="group">
-                <div class="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
+              <a href="#" className="group">
+                <div className="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
                   <Image
                     src={school}
                     width="500"
                     height="300"
-                    alt="Olive drab green insulated bottle with flared screw lid and flat top."
-                    class="h-full w-full stroke-black object-cover object-center group-hover:opacity-75"
+                    alt="Description of the school project "
+                    className="h-full w-full stroke-black object-cover object-center group-hover:opacity-75"
                   />
                 </div>
-                <h3 class="mt-4 text-xl text-gray-800 font-bold">
+                <h3 className="mt-4 text-xl text-gray-800 font-bold">
                   School Management App
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 className="mt-4 text-sm text-gray-700">
                   My Role UI/UX Designer
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
+                <h3 className="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
               </a>
 
-              <a href="#" class="group">
-                <div class="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
+              <a href="#" className="group">
+                <div className="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
                   <Image
-                    class="h-full w-full object-cover object-center group-hover:opacity-75"
+                    className="h-full w-full object-cover object-center group-hover:opacity-75"
                     src={dishatech}
+                    width="500"
+                    height="300"
+                    alt="Description of the dishatech project"
                   ></Image>
                 </div>
-                <h3 class="mt-4 text-xl text-gray-800 font-bold">Disha Tech</h3>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 className="mt-4 text-xl text-gray-800 font-bold">
+                  Disha Tech
+                </h3>
+                <h3 className="mt-4 text-sm text-gray-700">
                   My Role UI/UX Designer
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
+                <h3 className="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
               </a>
 
-              <a href="#" class="group">
-                <div class="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
+              <a href="#" className="group">
+                <div className="  shadow-2xl aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-9 xl:aspect-w-7 transform hover:rotate-3 hover:scale-105 transition-transform duration-300">
                   <Image
                     src={main}
-                    alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
-                    class="h-full w-full object-cover object-center group-hover:opacity-75"
+                    width="500"
+                    height="300"
+                    alt="Description of the main project "
+                    className="h-full w-full object-cover object-center group-hover:opacity-75"
                   />
                 </div>
-                <h3 class="mt-4 text-xl text-gray-800 font-bold">
+                <h3 className="mt-4 text-xl text-gray-800 font-bold">
                   Stress Relief Pro
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">
+                <h3 className="mt-4 text-sm text-gray-700">
                   My Role UI/UX Designer
                 </h3>
-                <h3 class="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
+                <h3 className="mt-4 text-sm text-gray-700">Duration 4 Weeks</h3>
               </a>
             </div>
           </div>
@@ -178,8 +187,8 @@ const Home = () => {
       </section>
 
       {/*EXPERIENCE*/}
-      <div class="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-        <div class="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5"></div>
+      <div className="absolute lefts-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
+        <div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm leading-6 shadow-lg ring-1 ring-gray-900/5"></div>
       </div>
     </div>
   );
